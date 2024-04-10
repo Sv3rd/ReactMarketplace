@@ -1,0 +1,18 @@
+import React from 'react';
+import MarketplaceHeader from './MarketplaceHeader';
+import MarketplaceProducts from './MarketplaceProducts';
+import MarketplaceFilters from './MarketplaceFilters';
+import MarketplaceFooter from './MarketplaceFooter';
+
+function App() {
+  return (
+    <div>
+      <MarketplaceHeader />
+      <MarketplaceFilters />
+      <MarketplaceProducts />
+      <MarketplaceFooter />
+    </div>
+  );
+}
+
+export default App;
